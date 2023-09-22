@@ -10,7 +10,7 @@
             <option value="$PROJECT_DIR$/placedOrdersStatistics/project" />
           </set>
         </option>
-        <option name="sbtVersion" value="1.9.6" />
+        <option name="sbtVersion" value="1.9.2" />
       </SbtProjectSettings>
     </option>
   </component>

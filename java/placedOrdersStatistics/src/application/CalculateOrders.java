@@ -58,6 +58,6 @@ public class CalculateOrders {
         CalculateOrders.calculateIntervalOrders(orders,1,3);
         CalculateOrders.calculateIntervalOrders(orders,4,6);
         CalculateOrders.calculateIntervalOrders(orders,7,12);
-        CalculateOrders.calculateIntervalOrders(orders,12,999);
+        CalculateOrders.calculateIntervalOrders(orders,12,48);
     }
 }

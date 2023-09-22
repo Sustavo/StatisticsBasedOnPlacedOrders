@@ -7,7 +7,6 @@ import java.util.List;
 
 public class Order {
     private List<Item> items;
-
     private String clientName;
     private String contact;
     private String shippingAdress;

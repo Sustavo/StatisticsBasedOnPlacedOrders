@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/placedOrdersStatistics/.idea/modules/placedOrdersStatistics-build.iml" filepath="$PROJECT_DIR$/placedOrdersStatistics/.idea/modules/placedOrdersStatistics-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/placedOrdersStatistics/.idea/modules/placedordersstatistics.iml" filepath="$PROJECT_DIR$/placedOrdersStatistics/.idea/modules/placedordersstatistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/placedOrdersStatistics/.idea/modules/placedordersstatistics-build.iml" filepath="$PROJECT_DIR$/placedOrdersStatistics/.idea/modules/placedordersstatistics-build.iml" />
     </modules>
   </component>
 </project>
