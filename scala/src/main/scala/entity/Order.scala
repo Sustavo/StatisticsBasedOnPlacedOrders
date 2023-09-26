@@ -4,6 +4,7 @@ import java.time.LocalDate
 import scala.collection.mutable.ListBuffer
 
 class Order (
+              // private var id: Long,
               private var item: ListBuffer[Item],
               private var clientName: String,
               private var contact: String,
@@ -11,6 +12,8 @@ class Order (
               private var grandTotal: Double,
               private var requestDate: LocalDate,
             ){
+
+  //def getId: Long = id
   def getItem: ListBuffer[Item] = item
 
   def setItem(newItem: ListBuffer[Item]): Unit = {

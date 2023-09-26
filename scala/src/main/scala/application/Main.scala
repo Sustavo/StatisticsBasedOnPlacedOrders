@@ -1,20 +1,21 @@
 package application
-import generator.{Addresses, Data, Items, Names, RandomDate}
-import entity.Order
+import generator.Data
 import validator.Validator
 
 import java.time.LocalDate
 import java.util.Scanner
 import scala.collection.mutable.ListBuffer
 
+
 object Main {
   def main(args: Array[String]): Unit = {
+
     val scanner = new Scanner(System.in)
-    val start = scanner.nextLine()
-    val end = scanner.nextLine()
-    Validator.incorrectDates(start, end)
-    val startDate = LocalDate.parse(start)
-    val endDate = LocalDate.parse(end)
+    if(Validator.validateParameters(args)) return
+    if(Validator.incorrectDates(args)) return
+
+    val startDate = LocalDate.parse(args(0));
+    val endDate = LocalDate.parse(args(1));
 
     val orders = Data.generateOrders
     println("----------------------------------------")
@@ -34,17 +35,17 @@ object Main {
       println("Would you like to choose the range? (Yes or No)")
       val choose = scanner.nextLine().toLowerCase()
       choose match {
-        case "yes" => {
-          loop = false
+        case "yes" =>
+          loop = false  
           CalculateOrders.chooseIntervalOrders(filteredOrders,scanner,startList,endList)
-        }
-        case "no" => {
+        case "no" =>
           loop = false
           CalculateOrders.allIntervalOrders(filteredOrders)
-        }
         case _ => println("Incorrect argument")
+
       }
     }
+
   }
 
 }

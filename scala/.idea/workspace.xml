@@ -5,24 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4343436f-10d2-4d87-9f40-363147c5b397" name="Changes" comment="orders.size">
-      <change afterPath="$PROJECT_DIR$/../.idea/placedOrdersStatistics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_18_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/libraries/sbt__scala_sdk_2_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/placedOrdersStatistics/.idea/modules/placedordersstatistics-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/placedOrdersStatistics/.idea/modules/placedordersstatistics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/scala-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/scala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_12_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/libraries/sbt__scala_sdk_2_13_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/application/CalculateOrders.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/application/CalculateOrders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/application/CalculateOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/application/CalculateOrders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/entities/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/entities/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/entities/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/placedOrdersStatistics/src/validator/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$de900ec1f7ee7567823b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$de900ec1f7ee7567823b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$de900ec1f7ee7567823b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/application/CalculateOrders.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/application/CalculateOrders.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/application/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/application/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/entity/Item.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/entity/Item.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/entity/Order.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/entity/Order.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/entity/Product.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/entity/Product.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/validator/Validator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/validator/Validator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application/CalculateOrders$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application/CalculateOrders$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/validator/Validator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/validator/Validator$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/validator/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedJars/_global/streams/export" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +68,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -55,22 +82,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/gustavo/Estudos/soluevo/placedOrdersStatistics/scala",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gustavo/Estudos/backDoBack&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Lombok.Config&quot;
+    ]
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="application.Main" />
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="application.App" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
@@ -82,9 +116,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.Main" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -100,11 +148,20 @@
       <workItem from="1695337185324" duration="9419000" />
       <workItem from="1695396773216" duration="2061000" />
       <workItem from="1695399420421" duration="586000" />
-      <workItem from="1695400520285" duration="6056000" />
+      <workItem from="1695400520285" duration="6849000" />
+      <workItem from="1695494723962" duration="11365000" />
+      <workItem from="1695508719300" duration="605000" />
+      <workItem from="1695574449266" duration="3540000" />
+      <workItem from="1695602162254" duration="28000" />
+      <workItem from="1695680529663" duration="7466000" />
+      <workItem from="1695688780918" duration="1141000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
 </project>

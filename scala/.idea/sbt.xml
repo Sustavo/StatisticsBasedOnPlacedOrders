@@ -13,6 +13,9 @@
         </option>
         <option name="sbtVersion" value="1.9.6" />
       </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/data-dir" />
+      </SbtProjectSettings>
     </option>
   </component>
 </project>

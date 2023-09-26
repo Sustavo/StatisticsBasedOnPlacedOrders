@@ -3,12 +3,15 @@ package entity
 import java.time.LocalDate
 
 class Product(
-               private var name: String,
-               private var category: String,
-               private var weight: Double,
-               private var price: Double,
-               private var creationDate: LocalDate
+               //private var id: Long,
+             private var name: String,
+             private var category: String,
+             private var weight: Double,
+             private var price: Double,
+             private var creationDate: LocalDate
               ){
+
+  //def getId: Long = id
 
   def getName: String = name
 
