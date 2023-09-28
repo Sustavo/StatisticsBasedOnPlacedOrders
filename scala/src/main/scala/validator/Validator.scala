@@ -27,7 +27,7 @@ object Validator {
       false
     } catch {
       case e: DateTimeParseException => {
-        println("An error occurred when trying to use the arguments passed.\nit is necessary to pass using the format: \"YYYY-MM-DD\"")
+        println("An error occurred when trying to use the arguments passed.\nit is necessary to use the format: \"YYYY-MM-DD\"")
         true
       }
     }

@@ -5,7 +5,7 @@ import scala.util.Random
 import scala.collection.mutable.ListBuffer
 
 object Data {
-  def calculateGrandTotal(items: ListBuffer[Item]): Double = {
+  private def calculateGrandTotal(items: ListBuffer[Item]): Double = {
     var grandTotal = 0.0
     for(item <- items) {
       grandTotal += item.getCost

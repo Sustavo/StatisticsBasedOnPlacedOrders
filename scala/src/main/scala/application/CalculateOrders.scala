@@ -2,8 +2,8 @@ package application
 import entity.Order
 import validator.Validator
 
-import java.time.{LocalDate, LocalDateTime}
-import java.util.{Optional, Scanner}
+import java.time.{LocalDate}
+import java.util.{Scanner}
 import scala.collection.mutable.ListBuffer
 
 object CalculateOrders {
@@ -16,10 +16,8 @@ object CalculateOrders {
 
   private def calculateIntervalOrders(orders: ListBuffer[Order], start: Int, end: Int): Unit = {
     val result = orders
-      .filter((order: Order) => order.getItem
-      .exists((item) => item.getProduct.getCreationDate.isBefore(LocalDate.now.minusMonths(start)) &&
-      item.getProduct.getCreationDate.isAfter(LocalDate.now.minusMonths(end)))).length
-
+      .filter((order: Order) => order.getRequestDate.isBefore(LocalDate.now.minusMonths(start)) &&
+        order.getRequestDate.isAfter(LocalDate.now.minusMonths(end))).length
 
 
     println(s"${start}-${end} months: ${result}")

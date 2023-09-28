@@ -43,13 +43,13 @@ object Items {
     val product16 = new Product("Paraffin", "Crafts", 500, 8.00, LocalDate.of(2022, 8, 17));
     mockItems += new Item(product16, 20.0, 24.0)
     val product17 = new Product("Cup", "Household Items", 150, 1.50, LocalDate.of(2022, 7, 17));
-    mockItems += new Item(product16, 20.0, 24.0)
+    mockItems += new Item(product17, 20.0, 24.0)
     val product18 = new Product("Lipstick", "Makeup", 5, 6.00, LocalDate.of(2022, 6, 17));
-    mockItems += new Item(product16, 20.0, 24.0)
+    mockItems += new Item(product18, 20.0, 24.0)
     val product19 = new Product("Tea", "Groceries", 50, 3.00, LocalDate.of(2022, 5, 17));
-    mockItems += new Item(product16, 20.0, 24.0)
+    mockItems += new Item(product19, 20.0, 24.0)
     val product20 = new Product("Flashlight", "Tools", 150, 10.00, LocalDate.of(2022, 4, 17));
-    mockItems += new Item(product16, 20.0, 24.0)
+    mockItems += new Item(product20, 20.0, 24.0)
   }
 
   def generateRandomItems:ListBuffer[Item] = {
