@@ -34,8 +34,6 @@ object Names {
     "Caio", "Isabela", "Carlos", "Larissa", "Feliciano", "Evelyn", "Calebe", "Karina", "Lucas", "Monique", "Roberto", "Mirela", "Eduardo", "Renata",
     "Luiz", "Elisângela", "Arthur", "Julieta", "Miguel", "Tainara", "Nicolas", "Verônica", "Luiz", "Isabela", "Nicolas", "Lucas")
 
-  def getNames:List[String] = {
-    namesList
-  }
+  def getNames:List[String] = namesList
 
 }

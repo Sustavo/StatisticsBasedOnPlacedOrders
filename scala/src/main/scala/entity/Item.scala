@@ -12,21 +12,15 @@ class Item (
 
   def getProduct: Product = product
 
-  def setProduct(newProduct: Product): Unit = {
-    product = newProduct
-  }
+  def setProduct(newProduct: Product): Unit = product = newProduct
 
   def getShippingFee: Double = shippingFee
 
-  def setShippingFee(newShippingFee: Double): Unit = {
-    shippingFee = newShippingFee
-  }
+  def setShippingFee(newShippingFee: Double): Unit = shippingFee = newShippingFee
 
   def getTaxAmount: Double = taxAmount
 
-  def setTaxAmount(newTaxAmount: Double): Unit = {
-    taxAmount = newTaxAmount
-  }
+  def setTaxAmount(newTaxAmount: Double): Unit = taxAmount = newTaxAmount
 
   def getCost: Double = cost
 

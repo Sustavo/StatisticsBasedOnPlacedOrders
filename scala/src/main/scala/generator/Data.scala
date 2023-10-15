@@ -5,21 +5,15 @@ import scala.util.Random
 import scala.collection.mutable.ListBuffer
 
 object Data {
-  private def calculateGrandTotal(items: ListBuffer[Item]): Double = {
-    var grandTotal = 0.0
-    for(item <- items) {
-      grandTotal += item.getCost
-    }
-    grandTotal
-  }
+  private def calculateGrandTotal(items: ListBuffer[Item]): Double = items.to(LazyList).map((item) => item.getCost).sum
 
   def generateOrders: ListBuffer[Order] = {
     val orders = new ListBuffer[Order]()
-    for(name <- Names.getNames) {
+    Names.getNames.foreach((name) => {
       val items = Items.generateRandomItems
-      val randomNumber = new Random().nextInt(9999) + 1000
-      orders += new Order(items, name, name + randomNumber + "@gmail.com", Addresses.getRandomAddress, calculateGrandTotal(items), RandomDate.getRandomPlacedOrderDate)
-    }
+      orders += new Order(
+        items, name, name + new Random().nextInt(9999) + 1000 + "@gmail.com", Addresses.getRandomAddress, calculateGrandTotal(items), RandomDate.getRandomPlacedOrderDate)
+    })
 
     orders
   }

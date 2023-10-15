@@ -6,15 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="4343436f-10d2-4d87-9f40-363147c5b397" name="Changes" comment="orders.size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/application/CalculateOrders.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/application/CalculateOrders.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/application/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/application/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/entity/Item.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/entity/Item.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/entity/Order.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/entity/Order.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/entity/Product.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/entity/Product.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/generator/Addresses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/generator/Addresses.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/generator/Data.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/generator/Data.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/generator/Items.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/generator/Items.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/generator/Names.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/generator/Names.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/generator/RandomDate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/generator/RandomDate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application/CalculateOrders$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application/CalculateOrders$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application/CalculateOrders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application/CalculateOrders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/entity/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/generator/Addresses$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/generator/Addresses$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/generator/Data$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/generator/Data$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/generator/Items$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/generator/Items$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/generator/Names$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/generator/Names$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/generator/RandomDate$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/generator/RandomDate$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/scala_2.13-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/scala_2.13-0.1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +74,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/gustavo/Estudos/soluevo/Learn Scala",
+    "last_opened_file_path": "/home/gustavo/Estudos/ComputacaoGrafica",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -127,6 +144,16 @@
       <workItem from="1695752007057" duration="279000" />
       <workItem from="1695864094389" duration="2396000" />
       <workItem from="1696020718854" duration="252000" />
+      <workItem from="1696203627281" duration="1288000" />
+      <workItem from="1696287090915" duration="5917000" />
+      <workItem from="1696328283305" duration="103000" />
+      <workItem from="1696329393971" duration="2256000" />
+      <workItem from="1696467208334" duration="183000" />
+      <workItem from="1696890541990" duration="7216000" />
+      <workItem from="1696897822025" duration="275000" />
+      <workItem from="1696932693719" duration="646000" />
+      <workItem from="1696952784578" duration="802000" />
+      <workItem from="1697217735784" duration="1997000" />
     </task>
     <servers />
   </component>

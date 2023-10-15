@@ -27,8 +27,8 @@ object Main {
     println("Orders filtered based on: " + startDate + " and " + endDate)
     println("----------------------------------------")
 
-    val startList = new ListBuffer[Int]()
-    val endList = new ListBuffer[Int]()
+    val startList = new ListBuffer[Any]()
+    val endList = new ListBuffer[Any]()
     var loop = true
 
     while (loop) {
@@ -36,11 +36,11 @@ object Main {
       val choose = scanner.nextLine().toLowerCase()
       choose match {
         case "yes" =>
-          loop = false  
+          loop = false
           CalculateOrders.chooseIntervalOrders(filteredOrders,scanner,startList,endList)
         case "no" =>
           loop = false
-          CalculateOrders.allIntervalOrders(filteredOrders)
+          CalculateOrders.defaultIntervalOrders(filteredOrders)
         case _ => println("Incorrect argument")
 
       }

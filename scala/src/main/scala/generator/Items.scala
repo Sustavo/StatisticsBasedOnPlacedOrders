@@ -55,14 +55,11 @@ object Items {
   def generateRandomItems:ListBuffer[Item] = {
     populateItem
     val randomList = new ListBuffer[Item]()
-    val random = new Random()
-    val listSize = random.nextInt(4) + 1
-    for(i <- 0 to listSize) {
-      val randomIndex = random.nextInt(mockItems.size)
-      randomList += mockItems(randomIndex)
+    for(i <- 0 to new Random().nextInt(4) + 1) {
+      randomList += mockItems(new Random().nextInt(mockItems.size))
     }
-    randomList
 
+    randomList
   }
 
 

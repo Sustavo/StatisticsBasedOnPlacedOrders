@@ -9,12 +9,5 @@ object Addresses {
     "Rio Grande do Norte", "Rio Grande do Sul", "Rondônia", "Roraima", "Santa Catarina",
     "São Paulo", "Sergipe", "Tocantins")
 
-  def getRandomAddress: String = {
-    val random = new Random();
-    val randomIndex = random.nextInt(addresslist.size)
-    addresslist(randomIndex)
-  }
-
-
-
+  def getRandomAddress: String = addresslist(new Random().nextInt(addresslist.size))
 }
