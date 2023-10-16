@@ -1,24 +1,22 @@
 package entity
 
-import java.time.LocalDate
+import java.time.{LocalDate, LocalDateTime}
 import scala.collection.mutable.ListBuffer
 
 class Order (
-              // private var id: Long,
-              private var item: ListBuffer[Item],
+              private var id: Long,
+              private var item: List[Int],
               private var clientName: String,
               private var contact: String,
               private var shippingAddress: String,
               private var grandTotal: Double,
-              private var requestDate: LocalDate,
+              private var requestDate: String,
             ){
 
-  //def getId: Long = id
-  def getItem: ListBuffer[Item] = item
+  def getId: Long = id
+  def getItem: List[Int] = item
 
-  def setItem(newItem: ListBuffer[Item]): Unit = {
-    item = newItem
-  }
+  def setItem(newItem: List[Int]): Unit = item = newItem
 
   def getClientName: String = clientName
 
@@ -44,21 +42,18 @@ class Order (
     grandTotal = newGrandTotal
   }
 
-  def getRequestDate: LocalDate = requestDate
+  def getRequestDate: String = requestDate
 
-  def setRequestDate(newRequestDate: LocalDate): Unit = {
-    requestDate = newRequestDate
-  }
+  def setRequestDate(newRequestDate: String): Unit = requestDate = newRequestDate
 
   override def toString: String = {
-    s"Order Details:\n" +
-      s"Client Name: $clientName\n" +
-      s"Contact: $contact\n" +
-      s"Shipping Address: $shippingAddress\n" +
-      s"Grand Total: $grandTotal\n" +
-      s"Request Date: $requestDate\n" +
-      s"Items:\n${item.mkString("\n")}"
+    s"VALUES ($clientName, $contact, $shippingAddress, $grandTotal, $requestDate) \n"
   }
+
+  def printarOrders: Unit = println(s"('$clientName', '$contact', '$shippingAddress', $grandTotal, '$requestDate'),")
+
+
+  def printarOrderItem: Unit = for (i <- item) println(s"($id, $i),")
 
 
 

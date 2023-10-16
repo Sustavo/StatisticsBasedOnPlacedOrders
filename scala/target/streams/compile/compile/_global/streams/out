@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
 [0m[[0m[31merror[0m] [0m[0m/home/gustavo/Estudos/soluevo/placedOrdersStatistics/scala/src/main/scala/application/Main.scala:39:48: type mismatch;[0m
@@ -11,3 +12,12 @@
 [0m[[0m[31merror[0m] [0m[0m          CalculateOrders.allIntervalOrders(filteredOrders)[0m
 [0m[[0m[31merror[0m] [0m[0m                                            ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+=======
+[0m[[0m[31merror[0m] [0m[0m/home/gustavo/Estudos/soluevo/placedOrdersStatistics/scala/src/main/scala/entity/Order.scala:42:16: incompatible type in overriding[0m
+[0m[[0m[31merror[0m] [0m[0mdef toString(): String (defined in class Object);[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: (): String[0m
+[0m[[0m[31merror[0m] [0m[0m  override def toString: Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+>>>>>>> Stashed changes

@@ -1,14 +1,14 @@
 package entity
 
 class Item (
-           //private var id: Long,
+           private var id: Long,
            private var product: Product,
            private var shippingFee: Double,
            private var taxAmount: Double
            ){
   private val cost: Double = shippingFee + taxAmount + product.getPrice
 
-  //def getId: Long = id
+  def getId: Long = id
 
   def getProduct: Product = product
 

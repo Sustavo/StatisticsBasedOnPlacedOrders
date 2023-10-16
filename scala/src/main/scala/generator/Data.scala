@@ -1,26 +1,31 @@
 package generator
 import entity.{Item, Order}
+import generator.Items.mockItems
 
 import scala.util.Random
 import scala.collection.mutable.ListBuffer
 
 object Data {
-  private def calculateGrandTotal(items: ListBuffer[Item]): Double = {
-    var grandTotal = 0.0
-    for(item <- items) {
-      grandTotal += item.getCost
+  private def calculateGrandTotal(numbers: List[Int], sum: Double): Double = {
+    if(numbers.isEmpty) {
+      sum
+    } else {
+      val maxIndex = if (mockItems.isEmpty) 0 else mockItems.size - 1
+      val randomIndex = if (maxIndex > 0) new Random().nextInt(maxIndex) else 0
+      val item = mockItems(randomIndex)
+      calculateGrandTotal(numbers.tail, item.getCost + sum)
     }
-    grandTotal
   }
 
   def generateOrders: ListBuffer[Order] = {
     val orders = new ListBuffer[Order]()
-    for(name <- Names.getNames) {
+    var id = 1
+    Names.getNames.foreach((name) => {
       val items = Items.generateRandomItems
-      val randomNumber = new Random().nextInt(9999) + 1000
-      orders += new Order(items, name, name + randomNumber + "@gmail.com", Addresses.getRandomAddress, calculateGrandTotal(items), RandomDate.getRandomPlacedOrderDate)
-    }
-
+      orders += new Order(
+        id, items, name, name + (new Random().nextInt(9999) + 1000) + "@gmail.com", Addresses.getRandomAddress, calculateGrandTotal(items, 0), RandomDate.getRandomPlacedOrderTime)
+        id += 1
+    })
     orders
   }
 
